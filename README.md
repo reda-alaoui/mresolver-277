@@ -46,3 +46,5 @@ No request made to `https://repo.spring.io/snapshot`.
 ## Additional comments
 
 Using `-nsu,--no-snapshot-updates Suppress SNAPSHOT updates` does not fix the issue.
+
+Without `https://repo.spring.io/snapshot` repository declaration, no request will be made, not even to Maven central.
