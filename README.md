@@ -12,7 +12,7 @@ All of these conditions are set in branch master.
 To reproduce, run:
 
 ```bash
-rm -fr .m2/repository/me/redaalaoui/mresolver_277 && mvn clean package
+rm -fr ~/.m2/repository/me/redaalaoui/mresolver_277 && mvn clean package
 ```
 
 ## What happens
