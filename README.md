@@ -1,4 +1,4 @@
-https://issues.apache.org/jira/browse/MRESOLVER-277 --no-snapshot-update option does not prevent metadata.xml download
+[--no-snapshot-update option does not prevent metadata.xml download](https://issues.apache.org/jira/browse/MRESOLVER-277)
 
 
 The issue is triggered by the following conditions:
@@ -36,3 +36,7 @@ i.e. A request is made to `https://repo.spring.io/snapshot` for each project's m
 ## What was expected
 
 No request made to `https://repo.spring.io/snapshot`.
+
+## Additional comments
+
+Using `-nsu,--no-snapshot-updates Suppress SNAPSHOT updates` does not fix the issue.
