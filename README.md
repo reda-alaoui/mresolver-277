@@ -11,13 +11,13 @@ All of these conditions are set in branch master.
 
 To reproduce, run:
 
-```bash
+```shell
 ./reproduce.sh
 ```
 
 **or**
 
-```bash
+```shell
 rm -fr ~/.m2/repository/me/redaalaoui/mresolver_277 && mvn clean package
 ```
 
