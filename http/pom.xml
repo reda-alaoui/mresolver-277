@@ -3,7 +3,7 @@
   <parent>
     <groupId>me.redaalaoui.mresolver_277</groupId>
     <artifactId>mresolver-277</artifactId>
-    <version>${revision}${changelist}</version>
+    <version>1-SNAPSHOT</version>
   </parent>
   <artifactId>http</artifactId>
   <packaging>jar</packaging>

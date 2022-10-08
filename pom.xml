@@ -3,13 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>me.redaalaoui.mresolver_277</groupId>
   <artifactId>mresolver-277</artifactId>
-  <version>${revision}${changelist}</version>
+  <version>1-SNAPSHOT</version>
   <name>MRESOLVER-277</name>
   <packaging>pom</packaging>
 
   <properties>
-    <revision>1</revision>
-    <changelist>.999999-SNAPSHOT</changelist>
 
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
@@ -38,31 +36,6 @@
                 <requireUpperBoundDeps/>
               </rules>
             </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>flatten-maven-plugin</artifactId>
-        <version>1.1.0</version>
-        <configuration>
-          <updatePomFile>true</updatePomFile>
-          <flattenMode>resolveCiFriendliesOnly</flattenMode>
-        </configuration>
-        <executions>
-          <execution>
-            <id>flatten</id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>flatten</goal>
-            </goals>
-          </execution>
-          <execution>
-            <id>flatten.clean</id>
-            <phase>clean</phase>
-            <goals>
-              <goal>clean</goal>
-            </goals>
           </execution>
         </executions>
       </plugin>
